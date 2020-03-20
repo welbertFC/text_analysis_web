@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2e2a003-9387-4006-b389-8fd8fa6ed99c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Analytical_characters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytical_characters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analytical_word.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analytical_word.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/resposta.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/resposta.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,9 +32,13 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\welbe\OneDrive\Documentos\Github\text_analysis_web\static" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\welbe\OneDrive\Documentos\Github\text_analysis_web\static" />
       <recent name="C:\Users\welbe\OneDrive\Documentos\Github\text_analysis_web\templates" />
