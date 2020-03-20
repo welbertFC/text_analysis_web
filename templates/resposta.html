@@ -2,6 +2,7 @@
 <html>
 
 <head>
+
  <meta charset='utf-8'>
  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
  <title>Resposta</title>
@@ -10,14 +11,37 @@
 </head>
 
 <body>
-
  <div class="base">
   <div class="center">
    <h2>Analise Soma</h2>
 
-   <p>{{sum_character}}</p>
-   <p>{{character_sem_espaco}}</p>
-   <p>{{sum_palavras}}</p>
+   <p> A soma das casracteres é : {{sum_character}}</p>
+   <p> A soma das casracteres sem espaço é :{{character_sem_espaco}}</p>
+   <p> A soma das palavras é :{{sum_palavras}}</p>
+   <h2>Top 10 aparições caracteres</h2>
+     <table class="table table-striped table-responsive table-bordered">
+            <thead class="thead-default">
+                <tr>
+                    <th>Caracteres</th>
+                    <th>Vezes que aparece</th>
+
+                </tr>
+            </thead>
+            <tbody>
+            {% for c in fequencia %}
+                <tr>
+                    <td>{{c.caracteres}}</td>
+                    <td>{{c.vezes_que_aparece}}</td>
+
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </tbody>
+
+
+
+
   </div>
  </div>
 
