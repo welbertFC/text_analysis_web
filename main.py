@@ -101,4 +101,4 @@ def analise_caractere():
 
 
 
-app.run(debug=True)
+app.run()
